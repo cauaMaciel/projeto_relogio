@@ -19,8 +19,7 @@ body{
 .principal{
     box-shadow: 5px 5px 10px rgb(29, 29, 29);
     background: transparent;
-    padding: 30px 0;
-    margin: 150px 200px;
+    height: 300px;
     width: 800px;
     display: flex;
     justify-content: space-around;
@@ -28,62 +27,35 @@ body{
     position: relative;
 }
 
-#horas {
-    font-size: 80px;
+.principal div{
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    box-shadow: 8px 8px 8px rgb(51, 50, 50);
+    border-radius: 8px;
+    letter-spacing: 3px;
+   
+    display: flex;
 }
 
-#minutos {
+.principal span{
     font-size: 80px;
+    font-weight: bold;
 }
-
-#segundos {
-    font-size: 80px;
-}
-
-.texto{
+.principal span.texto{
     display: flex;
     font-size: 20px;
     font-family: "Fira Sans Condensed",;
-    margin-top: 15px;
+    margin-top: 5px;
     text-align: center;
     padding: 10px;
-    letter-spacing: 3px;
-}
-
-.um {
-    background-color: black;
-    padding: 40px 60px;
-    box-shadow: 8px 8px 8px rgb(51, 50, 50);
-    border-radius: 8px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    
     
 }
 
-.dois{
-    background-color: black;
-    padding: 40px 60px;
-    box-shadow: 8px 8px 8px rgb(51, 50, 50);
-    border-radius: 8px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
 
-.tres{
-    background-color: black;
-    padding: 40px 60px;
-    box-shadow: 8px 8px 8px rgb(51, 50, 50);
-    border-radius: 8px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
 
 
 
